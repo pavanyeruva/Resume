@@ -3,80 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Pavan Reddy, an Azure Administrator with expertise in cloud and front-end development.">
+<meta name="keywords" content="Azure Administrator, Software Engineer, Portfolio, Front-end Development">
+
     <title>Pavan Reddy's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <h1>Pavan <span>Reddy</span></h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#" class="nav-link" data-target="home">Home</a></li>
-                <li><a href="#" class="nav-link" data-target="education">Education</a></li>
-                <li><a href="#" class="nav-link" data-target="services">Services</a></li>
-                <li><a href="#" class="nav-link" data-target="testimonials">Testimonials</a></li>
-                <li><a href="#" class="nav-link" data-target="contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home" class="section active">
-        <div class="hero">
-            <div class="content">
-                <h1>Hi, It's <span>Pavan</span></h1>
-                <h2>I'm an &nbsp;<span class="static-text">Azure Administrator</span><span class="typed-text"></span></h2>
-                <p>A dedicated Software Engineer with 2 years of experience at HCL Technologies specialized in Azure Cloud and front-end development. 
-                    Proficient in managing projects, ensuring client satisfaction, and adapting quickly to new environments. Seeking opportunities to apply my knowledge and practical experience in a dynamic and challenging role.</p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/pavan-reddy-5996662a0/" target="_blank"><img src="Icons/linkedin.png" alt="LinkedIn"></a>
-                    <a href="https://github.com/pavanyeruva" target="_blank"><img src="Icons/github.png" alt="GitHub"></a>
-                    <a href="#"><img src="Icons/facebook.png" alt="Facebook"></a>
-                    <a href="#"><img src="Icons/instagram.png" alt="Instagram"></a>
+    <!-- Header Section -->
+<header>
+    <div class="logo">
+        <h1>Pavan <span>Reddy</span></h1>
+    </div>
+    <nav>
+        <button class="navbar-toggler">☰</button> <!-- Hamburger icon for mobile -->
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li class="dropdown">
+                <a href="#education" class="dropbtn">Education</a>
+            </li>
+            <li><a href="#certifications">Certifications</a></li>
+
+            <li class="dropdown">
+                <a href="#services" class="dropbtn">Services</a>
+                <div class="dropdown-content">
+                    <a href="#consulting">Consulting</a>
+                    <a href="#development">Development</a>
                 </div>
-                <div class="buttons">
-                    <a href="#" class="hire-btn">Hire</a>
-                    <a href="#" class="contact-btn">Contact</a>
-                </div>
+            </li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <!-- Hero Section -->
+    <section id="home" class="section active hero">
+        <div class="content">
+            <h1>Hi, It's <span>Pavan</span></h1>
+            <h2>I'm an&nbsp;<span class="static-text">Azure Administrator</span><span class="typed-text"></span></h2>
+            <p>A dedicated Software Engineer with 2 years of experience at HCL Technologies specialized in Azure Cloud and front-end development. 
+               Proficient in managing projects, ensuring client satisfaction, and adapting quickly to new environments. Seeking opportunities to apply my knowledge and practical experience in a dynamic and challenging role.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/pavan-reddy-5996662a0/" target="_blank"><img src="Icons/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/pavanyeruva" target="_blank"><img src="Icons/github.png" alt="GitHub"></a>
+                <a href="#"><img src="Icons/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="Icons/instagram.png" alt="Instagram"></a>
             </div>
-            <div class="profile-img">
-                <img src="ProfilePic/1720093413829.jpg" alt="Profile">
+            <div class="buttons">
+                <a href="#" class="hire-btn">Hire</a>
+                <a href="#contact" class="contact-btn">Contact</a>
             </div>
+        </div>
+        <div class="profile-img">
+            <img src="ProfilePic/1720093413829.jpg" alt="Profile Picture of Pavan Reddy">
         </div>
     </section>
 
-    <section id="education" class="section">
-      <center><h2>Education</h2></center>
+
+<!-- Education Section -->
+<section id="education" class="section">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
         <div class="timeline">
             <div class="timeline-item">
+                <div class="timeline-icon"></div>
                 <div class="timeline-content">
                     <h3>College</h3>
-                <p>
-                    Bachelor of Engineering in Computer Science. Graduated with a strong foundation in software development, algorithms, and data structures. Engaged in various projects that honed problem-solving skills and technical expertise.</p>
+                    <p>Bachelor of Engineering in Computer Science. Graduated with a strong foundation in software development, algorithms, and data structures. Engaged in various projects that honed problem-solving skills and technical expertise.</p>
                     <span class="date">2021</span>
                 </div>
             </div>
             <div class="timeline-item">
+                <div class="timeline-icon"></div>
                 <div class="timeline-content">
                     <h3>University</h3>
-                    
-                <p> 
-                    Master of Information Systems. Currently pursuing advanced knowledge in information systems, data management, and business process modeling. Actively involved in projects related to business analysis and data-driven decision-making.
+                    <p>Master of Information Systems. Currently pursuing advanced knowledge in information systems, data management, and business process modeling. Actively involved in projects related to business analysis and data-driven decision-making.</p>
                     <span class="date">2023 - Present</span>
                 </div>
             </div>
             <div class="timeline-item">
+                <div class="timeline-icon"></div>
                 <div class="timeline-content">
                     <h3>Internship at Conscierra</h3>
-                <p>Business Analyst Intern. Gained hands-on experience in analyzing business processes, gathering requirements, and working on projects aimed at improving operational efficiency. Contributed to the development of actionable insights for business decision-making.</p>
-                <span class="date">2024 - Present</span>
+                    <p>Business Analyst Intern. Gained hands-on experience in analyzing business processes, gathering requirements, and working on projects aimed at improving operational efficiency. Contributed to the development of actionable insights for business decision-making.</p>
+                    <span class="date">2024 - Present</span>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    
+    <!-- Certifications Section -->
+<section id="certifications" class="section">
+    <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certifications-grid">
+            <div class="certification-item">
+                <h3>AWS Fundamentals</h3>
+                <p>Completed in 2020. A comprehensive understanding of AWS services, cloud architecture, and deployment.</p>
+            </div>
+            <div class="certification-item">
+                <h3>Responsive Web Design</h3>
+                <p>Certified by freeCodeCamp. Gained skills in creating responsive and mobile-first web applications. <a href="https://www.freecodecamp.org/certification/pavan/responsive-web-design" target="_blank">View Certificate</a></p>
+
+            </div>
+            <div class="certification-item">
+                <h3>Introduction to Microsoft Azure Cloud Services</h3>
+                <p>Certified by Microsoft. Acquired knowledge of Azure cloud services and deployment strategies.</p>
+            </div>
+            <div class="certification-item">
+                <h3>Introduction to Microsoft Power Platform</h3>
+                <p>Completed on Coursera. Learned the fundamentals of Power Platform, including Power Apps and Power Automate.</p>
+            </div>
+            <div class="certification-item">
+                <h3>Cybersecurity Course</h3>
+                <p>Ongoing. Aiming to enhance skills in protecting systems and data from security threats.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Services Section -->
     <section id="services" class="section">
         <center><h2>Services</h2></center>
         <div class="services-grid">
@@ -96,7 +148,6 @@
                 <h3>React JS</h3>
                 <p>Experienced in building dynamic and responsive web applications using React JS, ensuring high performance and maintainability.</p>
             </div>
-            
             <div class="service-item">
                 <h3>Cybersecurity</h3>
                 <p>Strong knowledge in cybersecurity practices, protecting systems and data from unauthorized access, attacks, and breaches.</p>
@@ -116,12 +167,13 @@
         </div>
     </section>
 
+    <!-- Testimonials Section -->
     <section id="testimonials" class="section">
         <center><h2>Testimonials</h2></center>
         <div class="testimonials-grid">
             <div class="testimonial-item">
                 <div class="testimonial-image">
-                    <img src="TestimonialPics/Th.avif" alt="Thomas">
+                    <img src="Testimonials/Th.avif" alt="Testimonial from Thomas">
                 </div>
                 <h3>Thomas</h3>
                 <p>★★★★★</p>
@@ -129,15 +181,15 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-image">
-                    <img src="TestimonialPics/julia.avif" alt="Julia">
+                    <img src="Testimonials/julia.avif" alt="Testimonial from Julia">
                 </div>
                 <h3>Julia</h3>
                 <p>★★★★</p>
-                <p>"All the best. Hope you will achieve all your dreams. "</p>
+                <p>"All the best. Hope you will achieve all your dreams."</p>
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-image">
-                    <img src="TestimonialPics/Jane.jpg" alt="Jane">
+                    <img src="Testimonials/Jane.jpg" alt="Testimonial from Jane">
                 </div>
                 <h3>Jane</h3>
                 <p>★★★★★</p>
@@ -145,64 +197,87 @@
             </div>
         </div>
     </section>
-    
 
-    <<section id="contact" class="section">
-        <h2>Contact <span>Me</span></h2>
-        <div class="contact-form">
-            <form action="#" method="post">
-                <div class="form-group">
-                    <input type="text" name="name" placeholder="Full Name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" placeholder="Email" required>
-                </div>
-                <div class="form-group">
-                    <input type="tel" name="phone" placeholder="Phone Number" required>
-                </div>
-                <div class="form-group">
-                    <input type="text" name="subject" placeholder="Subject" required>
-                </div>
-                <div class="form-group full-width">
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="send-btn">Send Message</button>
-                </div>
-            </form>
+    <!-- Mentor Section -->
+<section id="mentor" class="section">
+    <div class="container">
+        <h2 class="section-title">Mentor Appreciation</h2>
+        <div class="mentor-content">
+            <div class="mentor-img">
+                <img src="Testimonials/Image.jpg" alt="Picture of Pavan Reddy and Van">
+            </div>
+            <div class="mentor-text">
+                <p>Working under Van's guidance has been an incredible experience. His wisdom, leadership, and unwavering support have been pivotal in shaping my journey. Van has not only been a mentor but a true inspiration, constantly encouraging me to strive for excellence. I'm grateful for his guidance and the invaluable lessons he has imparted, which will stay with me throughout my career.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+     <!-- Contact Section -->
+     <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact <span>Me</span></h2>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="input-group">
+                        <input type="text" name="name" id="name" aria-label="Full Name" required>
+
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" name="phone" id="phone" required>
+                        <label for="phone">Phone Number</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="subject" id="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="input-group full-width">
+                        <textarea name="message" id="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button type="submit" class="send-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
-    
 
-    
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/pavan-reddy-5996662a0/" target="_blank" rel="noopener noreferrer">
+                <img src="Icons/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="#">
+                <img src="Icons/facebook.png" alt="Facebook">
+            </a>
+            <a href="#">
+                <img src="Icons/instagram.png" alt="Instagram">
+            </a>
+            <a href="#">
+                <img src="Icons/github.png" alt="GitHub">
+            </a>
+        </div>
+        <div class="footer-nav">
+            <a href="#">FAQ</a>
+            <a href="#services">Services</a>
+            <a href="#home">About Me</a>
+            <a href="#contact">Contact</a>
+            <a href="#testimonials">Testimonials</a>
+        </div>
+        <div class="footer-copy">
+            <p>&copy; Pavan Reddy | All Rights Reserved</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
-<footer>
-    <div class="footer-social">
-        <a href="https://www.linkedin.com/in/pavan-reddy-5996662a0/" target="_blank" rel="noopener noreferrer">
-            <img src="Icons/linkedin.png" alt="LinkedIn">
-        </a>
-        <a href="#">
-            <img src="Icons/facebook.png" alt="Facebook">
-        </a>
-        <a href="#">
-            <img src="Icons/instagram.png" alt="Instagram">
-        </a>
-        <a href="#">
-            <img src="Icons/github.png" alt="GitHub">
-        </a>
-    </div>
-    <div class="footer-nav">
-        <a href="#">FAQ</a>
-        <a href="#">Services</a>
-        <a href="#">About Me</a>
-        <a href="#">Contact</a>
-        <a href="#">Testimonials</a>
-    </div>
-    <div class="footer-copy">
-        <p>&copy; Pavan Reddy | All Rights Reserved</p>
-    </div>
-</footer>
-
 </html>
